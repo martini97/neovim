@@ -12,3 +12,5 @@
 # include "quickfix.h.generated.h"
 #endif
 #endif  // NVIM_QUICKFIX_H
+
+int qf_stack_get_bufnr(void);
